@@ -51,7 +51,7 @@ const CreateExpense = () => {
         
         try {
             setLoading(true);
-            const res = await axios.post("https://expensetracker-j2vn.onrender.com/api/v1/expense/add", formData, {
+            const res = await axios.post("https://fintrackezy.onrender.com/api/v1/expense/add", formData, {
                 headers: {
                     'Content-Type': 'application/json'
                 },
