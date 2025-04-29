@@ -1,5 +1,4 @@
-
-import { colors } from 'tailwindcss'
+import colors from 'tailwindcss/colors'
 
 export default {
   darkMode: ['class'],
