@@ -1,4 +1,3 @@
-
 import './App.css'
 import Home from './components/Home'
 import Login from './components/Login'
@@ -8,24 +7,25 @@ import { Toaster } from 'sonner'
 
 const appRouter = createBrowserRouter([
   {
-  path:"/",
-  element:<Home/>
-},{
-  path:"/login",
-  element:<Login/>
-},{
-  path:"/signup",
-  element:<Signup/>
-}
+    path: "/",
+    element: <Home />
+  },
+  {
+    path: "/login",
+    element: <Login />
+  },
+  {
+    path: "/signup",
+    element: <Signup />
+  }
 ])
 
 function App() {
-
   return (
-  <div>
-        <RouterProvider router = {appRouter}/>
-        <Toaster />
-  </div>
+    <div>
+      <RouterProvider router={appRouter} />
+      <Toaster />
+    </div>
   )
 }
 
