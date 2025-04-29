@@ -40,7 +40,7 @@ const ExpenseTable = () => {
   const handleCheckboxChange = async (expenseId) => {
     const newStatus = !checkedItems[expenseId];
     try {
-       const res = await axios.put(`https://expensetracker-j2vn.onrender.com/api/v1/expense/${expenseId}/done`, {done:newStatus}, {
+       const res = await axios.put(`https://fintrackezy.onrender.com/api/v1/expense/${expenseId}/done`, {done:newStatus}, {
         headers:{
           'Content-Type': 'application/json'
         },
@@ -63,7 +63,7 @@ const ExpenseTable = () => {
 
     const removeExpenseHandler = async (expenseId) => {
       try {
-        const res = await axios.delete(`https://expensetracker-j2vn.onrender.com/api/v1/expense/remove/${expenseId}`);
+        const res = await axios.delete(`https://fintrackezy.onrender.com/api/v1/expense/remove/${expenseId}`);
         if(res.data.success){
           toast.success(res.data.message)
           //Update the local state
