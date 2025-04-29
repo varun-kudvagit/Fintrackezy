@@ -1,21 +1,23 @@
 
-const colors = require('tailwindcss/colors')
+import { colors } from 'tailwindcss'
 
-module.exports = {
-  darkMode: ["class"], 
-  content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"], 
+export default {
+  darkMode: ['class'],
+  content: [
+    './index.html',
+    './src/**/*.{js,jsx,ts,tsx}',
+  ],
   theme: {
     extend: {
       colors: {
         teal: colors.teal,
-        customTeal: '#00b5a2', 
       },
       borderRadius: {
-        lg: 'var(--radius)',  
+        lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)', 
+        sm: 'calc(var(--radius) - 4px)',
       },
     },
   },
-  plugins: [require("tailwindcss-animate")], 
+  plugins: [require('tailwindcss-animate')],
 }
