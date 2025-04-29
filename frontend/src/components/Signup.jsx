@@ -23,7 +23,7 @@ const Signup = () => {
     const submitHandler = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("https://expensetracker-j2vn.onrender.com/api/v1/user/register", input, {
+            const res = await axios.post("https://fintrackezy.onrender.com/api/v1/user/register", input, {
                 headers: {
                     'Content-Type': 'application/json'
                 },
