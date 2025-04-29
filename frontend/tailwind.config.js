@@ -1,20 +1,21 @@
-/** @type {import('tailwindcss').Config} */
+
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  darkMode: ["class"],
-  content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
+  darkMode: ["class"], // Enable dark mode with class toggle
+  content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"], // Purge unused styles
   theme: {
     extend: {
       colors: {
-        teal: colors.teal,
+        teal: colors.teal, // Default teal
+        customTeal: '#00b5a2', // Optional custom teal color
       },
       borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)',
+        lg: 'var(--radius)',  // Custom border radius variable
+        md: 'calc(var(--radius) - 2px)', // Smaller radius based on custom variable
+        sm: 'calc(var(--radius) - 4px)', // Even smaller radius based on custom variable
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate")], 
 }
