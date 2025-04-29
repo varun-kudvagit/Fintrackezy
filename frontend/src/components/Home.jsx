@@ -1,4 +1,3 @@
-//34 Minutes
 
 import React from 'react'
 import Navbar from './Navbar'
