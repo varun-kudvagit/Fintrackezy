@@ -5,7 +5,7 @@ import {
   getAllExpensesService,
   deleteExpenseByIdService,
 } from "../services/expense.service.js";
-import { addExpenseSchema } from "../validation/expense.valiadtion.js";
+import { addExpenseSchema } from "../validation/expense.validation.js";
 export const addExpenseController = async (req, res, next) => {
   try {
     const userId = req.user.id;
