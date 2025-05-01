@@ -19,15 +19,15 @@ Features :
 
 Frontend:
 
-React.js (with Vite)
-React Router
-Axios
-Tailwind CSS
+React.js (with Vite),
+ React Router,
+ Axios,
+ Tailwind CSS
 
 Backend:
 
-Node.js
-Express.js
-MongoDB (via Mongoose)
-JWT for authentication
+Node.js,
+ Express.js,
+ MongoDB (via Mongoose),
+ JWT for authentication
 bcrypt for password hashing
