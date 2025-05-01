@@ -5,7 +5,7 @@ Link: https://fintrackezy.netlify.app/
 
 Demo account: 
 
-📧 Email:    abc@g.com  
+📧 Email:    abc@g.com 
 🔒 Password: Fintrackezy
 
 Features :
