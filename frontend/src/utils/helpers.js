@@ -40,15 +40,10 @@ export const addThousandsSeperator = (num) => {
     ? `${formattedInteger}.${fractionalPart}`
     : formattedInteger;
 };
-
 export const formatDecimalValueUptoTwoPlaces = (num) => {
-  if (num == null || isNaN(num)) {
-    return "";
-  }
-  const [integerPart, fractionalPart] = num.toString().split(".");
-  return Number(
-    fractionalPart
-      ? `${integerPart}.${fractionalPart.slice(0, 2)}`
-      : integerPart
-  );
+  if (isNaN(num)) return "0.00";
+  return Number(num).toLocaleString("en-IN", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  });
 };
