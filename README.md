@@ -11,35 +11,23 @@ You can try out the app using the following demo account:
 Features :
 
 🔐 User authentication (Login / Register)
-
 ➕ Add income and expense transactions
-
 📊 Visual charts for financial overview
-
 🧾 Filter and view transaction history
-
 💾 Data stored securely in MongoDB
-
 ⚡ Responsive, mobile-friendly UI
 
 Frontend:
 
 React.js (with Vite)
-
 React Router
-
 Axios
-
 Tailwind CSS
 
 Backend:
 
 Node.js
-
 Express.js
-
 MongoDB (via Mongoose)
-
 JWT for authentication
-
 bcrypt for password hashing
