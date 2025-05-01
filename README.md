@@ -3,7 +3,8 @@ FinTrackEzy is a full-stack finance tracker web application built using the MERN
 
 Live Demo: https://fintrackezy.netlify.app/
 
-Features
+Features :
+
 🔐 User authentication (Login / Register)
 
 ➕ Add income and expense transactions
