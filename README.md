@@ -1,7 +1,7 @@
 # Fintrackezy
 FinTrackEzy is a full-stack finance tracker web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It helps users efficiently track income and expenses, view transaction history, and analyze financial data over time.
 
-Live Demo: fintrackezy.netlify.app
+Live Demo: https://fintrackezy.netlify.app/
 
 Features
 🔐 User authentication (Login / Register)
