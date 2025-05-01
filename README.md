@@ -29,5 +29,5 @@ Backend:
 Node.js,
  Express.js,
  MongoDB (via Mongoose),
- JWT for authentication
+ JWT for authentication,
 bcrypt for password hashing
