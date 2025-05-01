@@ -15,14 +15,14 @@ Features :
 📊 Visual charts for financial overview
 🧾 Filter and view transaction history
 💾 Data stored securely in MongoDB
-⚡ Responsive, mobile-friendly UI
+⚡ Responsive, mobile-friendly UI.
 
 Frontend:
 
 React.js (with Vite),
  React Router,
  Axios,
- Tailwind CSS
+ Tailwind CSS.
 
 Backend:
 
@@ -30,4 +30,4 @@ Node.js,
  Express.js,
  MongoDB (via Mongoose),
  JWT for authentication,
-bcrypt for password hashing
+bcrypt for password hashing.
