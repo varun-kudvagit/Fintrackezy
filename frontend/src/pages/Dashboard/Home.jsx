@@ -77,9 +77,7 @@ const Home = () => {
           />
 
           <FinanceOverview
-            totalBalance={
-              formatDecimalValueUptoTwoPlaces(dashboardData?.totalBalance) || 0
-            }
+            totalBalance={(dashboardData?.totalBalance) || 0}
             totalIncome={dashboardData?.totalIncome || 0}
             totalExpense={dashboardData?.totalExpenses || 0}
           />
