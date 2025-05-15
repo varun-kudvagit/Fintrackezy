@@ -5,17 +5,17 @@ Link: https://fintrackezy.netlify.app/
 
 Demo account: 
 
-📧 Email:    abc@g.com 
-🔒 Password: Fintrackezy
+Email:    abc@g.com 
+Password: Fintrackezy
 
 Features :
 
-🔐 User authentication (Login / Register)
-➕ Add income and expense transactions
-📊 Visual charts for financial overview
-🧾 Filter and view transaction history
-💾 Data stored securely in MongoDB
-⚡ Responsive, mobile-friendly UI.
+User authentication (Login / Register)
+Add income and expense transactions
+Visual charts for financial overview
+Filter and view transaction history
+Data stored securely in MongoDB
+Responsive, mobile-friendly UI.
 
 Frontend:
 
