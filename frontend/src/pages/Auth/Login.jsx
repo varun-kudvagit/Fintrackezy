@@ -58,14 +58,14 @@ const Login = () => {
           value={email}
           onChange={({ target }) => setEmail(target.value)}
           label="Email Address"
-          placeholder="yourmail@example.in"
+          placeholder="demo: abc@g.com"
           type="text"
         />
         <Input
           value={password}
           onChange={({ target }) => setPassword(target.value)}
           label="Password"
-          placeholder="Min. 7 characters"
+          placeholder="demo: Fintrackezy"
           type="password"
         />
         {error && <p className="text-red-500 text-xs pb-2.5"> {error} </p>}
