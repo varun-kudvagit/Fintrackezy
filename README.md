@@ -4,7 +4,7 @@ FinTrackEzy is a full-stack finance tracker web application built using the MERN
 + **Demo account:**
    - **Email:** abc@g.com
    - **Password:** Fintrackezy
-+ **Demo video:** 
++ **Demo video:** https://drive.google.com/file/d/1_0HicV-CCZDFEjHpHpD_DcgVqQZYxGJr/view?usp=sharing
 # Features :
 + User authentication (Login / Register)
 + Add income and expense transactions
